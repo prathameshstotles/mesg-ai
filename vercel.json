@@ -1,3 +1,13 @@
 {
-  "version": 2
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/send-to-clay",
+      "dest": "/api/send-to-clay.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
